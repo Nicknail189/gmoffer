@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply p-5 box-border bg-[url('https://static.websimages.com/static/motifs/Patriotic/img/bg.gif')]
+    @apply md:p-5 box-border bg-[url('https://static.websimages.com/static/motifs/Patriotic/img/bg.gif')]
 }
 
 * {

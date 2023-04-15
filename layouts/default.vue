@@ -1,6 +1,6 @@
 <template>
-<div class="flex justify-center w-full">
-   <div class="max-w-[980px]">
+<div class="flex overflow-auto">
+   <div class="min-w-[980px] max-w-[980px]">
        <slot />
    </div>
 </div>
