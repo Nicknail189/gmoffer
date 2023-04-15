@@ -34,7 +34,7 @@
         </div>
 
         <div class="red-border border-t-0 gray-bg">
-            <div class="grid grid-cols-3 gap-4 px-3 py-1">
+            <div class="lg:grid grid-cols-3 gap-4 px-3 py-1">
                  <sign-in/>
             </div>
             <br>

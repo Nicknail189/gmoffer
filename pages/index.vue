@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="w-auto">
-        <div class="relative bg-[url('https://static.websimages.com/static/motifs/Patriotic/img/usa.gif')] p-5 h-[150px] bg-no-repeat w-[980px]">
+        <div class="relative bg-[url('https://static.websimages.com/static/motifs/Patriotic/img/usa.gif')] p-5 h-[150px] bg-no-repeat lg:w-[980px]">
            <div class="red-text text-[30px] gray-bg p-[5px] red-border inline-block">
                Government Money Offer
            </div>
@@ -34,7 +34,7 @@
         </div>
 
         <div class="red-border border-t-0 gray-bg">
-            <div class="grid grid-cols-3 gap-4 px-3 py-1">
+            <div class="lg:grid grid-cols-3 gap-4 px-3 py-1">
                  <keep-alive>
                  <component :is="activeTab"/>
                  </keep-alive>
